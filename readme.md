@@ -27,7 +27,7 @@ Server simulator in the last century (based on the North American clothing (Chin
 	mysql account archeage password archeage
 
 ![avatar](/doc/img/TIM截图20180808170435.png)
-![avatar](/doc/img/TIM截图201808081704545.png)
+![avatar](/doc/img/TIM截图20180808170454.png)
 ![avatar](/doc/img/TIM截图20180808170527.png)
 update log：
 
