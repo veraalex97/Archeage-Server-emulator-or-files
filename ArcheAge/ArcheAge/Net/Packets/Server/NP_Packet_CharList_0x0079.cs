@@ -27,36 +27,36 @@ namespace ArcheAge.ArcheAge.Net
             ///count 1
             ///02
             ns.Write((byte)0x02);
-            ///{ количество героев
+            ///{ количество героев 英雄的数量  角色的数量
             ///================================================================================
             ///====================================== Remota ==================================
             ///================================================================================
-            ///type 4 (charID)
+            ///type 4 (charID)  角色id
             ///D7940100
             ns.Write((int)0x0194D7);
-            ///size.name
+            ///size.name 角色昵称
             ///0600 52656D6F7461 (Remota)
             string msg = "Remota";
             ns.WriteUTF8Fixed(msg, msg.Length);
-            ///CharRace 1
+            ///CharRace 1   角色种族  依照登陆服务器的字段 1诺亚  3矮人  4精灵  5 哈利兰  6兽灵  8战魔
             ///03 (Гномы)
             ns.Write((byte)0x03);
-            ///CharGender 1
+            ///CharGender 1  角色性别 1男 2女
             ///02 (Ж)
             ns.Write((byte)0x02);
-            ///level 1
+            ///level 1  角色等级
             ///01
             ns.Write((byte)0x01);
-            ///health 4
+            ///health 4  状态  -- 未知
             ///D0020000 (720)
             ns.Write((int)0x02D0);
-            ///mana 4
+            ///mana 4  威望？未知作用
             ///9E020000 (670)
             ns.Write((int)0x029E);
             ///zone_id 4
             ///2C010000
             ns.Write((int)0x012C);
-            ///type 4 FactionId
+            ///type 4 FactionId  派系id  
             ///68000000
             ns.Write((int)0x68);
             //ns.Write((int)0x00); //если 00, то можно в factionName свою фракцию писать
@@ -68,7 +68,7 @@ namespace ArcheAge.ArcheAge.Net
             ///type 4
             ///00000000
             ns.Write((int)0x00);
-            ///family 4
+            ///family 4  家族id
             ///00000000
             ns.Write((int)0x00);
             ///{
@@ -120,17 +120,17 @@ namespace ArcheAge.ArcheAge.Net
             ///            }
             ///         }
             ///     }
-            ///     creationTime 8
+            ///     creationTime 8  创建时间戳
             ns.Write((long)0x5AA53D49);
-            ///     lifespanMins 4
+            ///     lifespanMins 4  使用时常？
             ns.Write((int)0x00);
             ///     type 4
             ns.Write((int)0x00);
-            ///     worldId 1
+            ///     worldId 1  服务器id
             ns.Write((byte)0x01);
-            ///     unsecureDateTime 8
+            ///     unsecureDateTime 8 不安全的时间
             ns.Write((long)0x00);
-            ///     unpackDateTime 8
+            ///     unpackDateTime 8  卸载时间
             ns.Write((long)0x00);
             ///     chargeUseSkillTime 8
             ns.Write((long)0x00);
@@ -520,9 +520,9 @@ namespace ArcheAge.ArcheAge.Net
             ns.Write((int)0x00);
             ///type 4
             ns.Write((int)0x00);
-            ///defaultHairColor 4
+            ///defaultHairColor 4  默认头发颜色
             ns.Write((int)0x300907FF);
-            ///twoToneHair 4
+            ///twoToneHair 4  第二头发
             ns.Write((int)0xFF);
             ///twoToneFirstWidth 4
             ns.Write((int)0x00);
@@ -620,42 +620,42 @@ namespace ArcheAge.ArcheAge.Net
             ///lastWorldLeaveTime 8
             ns.Write((long)0x5B2D8205);
             ///moneyAmount 8
-            ns.Write((long)0x1E); //серебро, золото и платина (начало)
+            ns.Write((long)0x1E); //серебро, золото и платина (начало)  铜币数量  自动1:100:10000  换算金币
             ///moneyAmount 8
             ns.Write((long)0x00); //серебро, золото и платина (продолжение)
-            ///crimePoint 2
+            ///crimePoint 2  罪恶点
             ns.Write((short)0x00);
-            ///crimeRecord 4
+            ///crimeRecord 4  犯罪记录
             ns.Write((int)0x00);
-            ///crimeScore 2
+            ///crimeScore 2  罪恶分数
             ns.Write((short)0x00);
-            ///deleteRequestedTime  8
+            ///deleteRequestedTime  8  删除请求时间
             ns.Write((long)0x00);
-            ///transferRequestedTime 8
+            ///transferRequestedTime 8  转移请求时间
             ns.Write((long)0x00);
-            ///deleteDelay 8
+            ///deleteDelay 8  删除目录
             ns.Write((long)0x00);
-            ///consumedLp 4
+            ///consumedLp 4  通讯录
             ns.Write((int)0x00);
-            ///bmPoint 8
+            ///bmPoint 8  达鲁币
             ns.Write((long)0x1E); //монеты дару = 30
             ///moneyAmount 8
             ns.Write((long)0x00);
             ///moneyAmount 8
             ns.Write((long)0x00);
-            ///autoUseAApoint 1
+            ///autoUseAApoint 1  自动使用AA点
             ns.Write((byte)0x00);
-            ///prevPoint 4
+            ///prevPoint 4  预防点
             ns.Write((int)0x01);
-            ///point 4
+            ///point 4  点
             ns.Write((int)0x01);
-            ///gift 4
+            ///gift 4  礼物  赠送的
             ns.Write((int)0x00);
-            ///updated 8
+            ///updated 8  更新时间戳
             ns.Write((long)0x5B3F9014);
-            ///forceNameChange 1
+            ///forceNameChange 1  强制名称改变
             ns.Write((byte)0x00);
-            ///highAbilityRsc 4
+            ///highAbilityRsc 4  未知
             ns.Write((int)0x00);
             ///}
             
