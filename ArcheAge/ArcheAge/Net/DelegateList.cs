@@ -112,7 +112,7 @@ namespace ArcheAge.ArcheAge.Net
                 net.SendAsync(new NP_ChangeState(-1));
                 //net.SendAsync(new NP_ClientConnected2());
                 //net.SendAsync(new NP_Client02());
-                net.SendAsync(new NP_ClientConnected());
+                //net.SendAsync(new NP_ClientConnected());
             }
         }
 
