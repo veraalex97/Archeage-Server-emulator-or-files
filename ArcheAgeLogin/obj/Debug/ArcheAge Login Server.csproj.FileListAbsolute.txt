@@ -67,3 +67,17 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLo
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLogin\obj\Debug\ArcheAgeLogin.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLogin\obj\Debug\ArcheAgeLogin.pdb
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLogin\obj\Debug\ArcheAge Login Server.csprojResolveAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\ArcheAgeLogin.exe.config
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\ArcheAgeLogin.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\ArcheAgeLogin.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\LocalCommons.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\LocalCommons.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\obj\Debug\ArcheAge Login Server.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\obj\Debug\ArcheAge Login Server.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\obj\Debug\ArcheAge Login Server.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\obj\Debug\ArcheAgeLogin.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\obj\Debug\ArcheAgeLogin.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\Google.Protobuf.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\MySql.Data.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\Google.Protobuf.xml
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLogin\bin\Debug\MySql.Data.xml

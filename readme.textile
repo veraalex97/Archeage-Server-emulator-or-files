@@ -6,6 +6,16 @@ archeRage 2.9
 archeRage 3.0.0.7
 archeage 4.0+
 
+这个项目被放弃了 请前往[NL0bP](https://github.com/NL0bP/Archeage-Server-emulator)
+
+没有什么意外的话，这个项目将只作为个人测试使用
+
+
+请阅读：
+请不要将该项目用于商业或其他用途
+原则上也不得用于个人研究等行为
+否则你可能需要遵守当地的法律
+
 Server simulator in the last century (based on the North American clothing (Chinese area server may also apply))
 
 
@@ -16,7 +26,9 @@ Server simulator in the last century (based on the North American clothing (Chin
 	import sql
 	mysql account archeage password archeage
 
-
+![avatar](/doc/img/TIM截图20180808170435.png)
+![avatar](/doc/img/TIM截图201808081704545.png)
+![avatar](/doc/img/TIM截图20180808170527.png)
 update log：
 
 2018年4月26日
@@ -29,6 +41,15 @@ update log：
 about:
 	因开发阶段，只有2.9和4.0版本，so 没有考虑到3.0版本问题。现在3.0版本放出，数据传输方式介于4.0和2.9之间
 	现在已经修复了3.0版本的登录数据不正确问题
+
+	
+2018年8月8日
+修复复写数据导致token和密码换位问题
+优化部分代码
+
+#####################
+根据国外大神的处理可进入游戏大厅
+具体细节还需等待
 
 
 2018年4月18日

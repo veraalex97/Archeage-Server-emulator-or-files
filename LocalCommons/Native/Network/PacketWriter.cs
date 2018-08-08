@@ -355,6 +355,30 @@ namespace LocalCommons.Native.Network
                 //m_Stream.Position += length ;
             
         }
+
+        public void WriteHex(string value, int size)
+        {
+            if (value.Length % 2 != 0)
+            {
+                Console.Write("Network: Attempted to WriteHex() the binary key cannot have an odd number of digits");
+                return;
+            }
+            if (value.Length / 2 != size / 2)
+            {
+                Console.WriteLine("Network: Attempted to WriteHex(value, size) with not equ value.Length and size value");
+            }
+            int length = value.Length / 2;
+            Write((short)length);
+            m_Stream.SetLength(m_Stream.Length + length);
+            byte[] bytes = new byte[length];
+            for (int i = 0; i < length; i++)
+            {
+                bytes[i] = byte.Parse(value.Substring(i * 2, 2), System.Globalization.NumberStyles.HexNumber);
+            }
+            bytes.CopyTo(m_Stream.GetBuffer(), (int)m_Stream.Position);
+            m_Stream.Position += length;
+        }
+
         /// <summary>
         /// Writes a dynamic-length ASCII-encoded string value to the underlying stream, followed by a 1-byte null character.
         /// 写一个动态长度的ASCII编码的字符串值基础流，其次是一个字节的空字符。

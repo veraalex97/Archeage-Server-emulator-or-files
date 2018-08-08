@@ -52,3 +52,11 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\LocalCommo
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\LocalCommons\obj\Debug\LocalCommons.dll
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\LocalCommons\obj\Debug\LocalCommons.pdb
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\LocalCommons\obj\Debug\ArcheAge Commons.csprojResolveAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\bin\Debug\LocalCommons.dll
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\bin\Debug\LocalCommons.pdb
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\bin\Debug\protobuf-net.dll
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\obj\Debug\ArcheAge Commons.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\obj\Debug\ArcheAge Commons.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\obj\Debug\ArcheAge Commons.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\obj\Debug\LocalCommons.dll
+H:\VS\Source\Repos\ArcheageEmu\LocalCommons\obj\Debug\LocalCommons.pdb

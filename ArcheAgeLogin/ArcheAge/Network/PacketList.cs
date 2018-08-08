@@ -183,10 +183,10 @@ namespace ArcheAgeLogin.ArcheAge.Network
         {
             reader.Offset = 21;
             int m_RUidLength = reader.ReadLEInt16();
-            string m_uid = reader.ReadString(m_RUidLength); //Reading Login
+            string m_name = reader.ReadString(m_RUidLength); //Reading Login
             int m_RtokenLength = reader.ReadLEInt16();
             string m_RToken = reader.ReadHexString(m_RtokenLength);
-            Account n_Current = AccountHolder.AccountList.FirstOrDefault(n => n.AccountId ==Convert.ToInt32(m_uid));
+            Account n_Current = AccountHolder.AccountList.FirstOrDefault(n => n.Name ==m_name);
             if (n_Current !=null )
             {
                 Logger.Trace("账号: < " + n_Current.AccountId + ":" + n_Current.Name + ">正在登陆");
@@ -206,7 +206,7 @@ namespace ArcheAgeLogin.ArcheAge.Network
             }
             else
             {
-                Logger.Trace("客户端尝试登陆不存在的账户"+ m_uid);
+                Logger.Trace("客户端尝试登陆不存在的账户:"+ m_name);
             }
 
                 //如果前面没有终止，那么账号登陆失败

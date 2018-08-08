@@ -60,7 +60,7 @@ namespace ArcheAge.ArcheAge.Net.Connections
             //reader.Offset += 1; //Undefined Random Byte
             byte rc = reader.ReadByte();
             byte level = reader.ReadByte(); //Packet Level
-            short opcode = reader.ReadLEInt16(); //Packet Opcode
+            ushort opcode = reader.ReadLEUInt16(); //Packet Opcode
 
             //if (level==0x01)
             //{
@@ -71,6 +71,20 @@ namespace ArcheAge.ArcheAge.Net.Connections
             //    }
             //    reader.Offset -= 2; //Undefined Random Byte
             //}
+
+
+            if (level == 0x05)
+            {
+                reader.Offset -= 2; //вернемся к hash, count
+                byte hash = reader.ReadByte(); //считываем hash или CRC (он не меняется)
+                byte count = reader.ReadByte(); //считываем count (шифрован, меняется)
+                if (hash == 0x34)
+                {
+                    opcode = 0x0088; //пакет на релогин
+                }
+                //reader.Offset -= 2; //Undefined Random Byte
+            }
+
             if (!DelegateList.ClientHandlers.ContainsKey(level))
             {
                 Logger.Trace("Receive undefined rc{0} Level {1} - Opcode 0x{2:X2}", rc, level, opcode);

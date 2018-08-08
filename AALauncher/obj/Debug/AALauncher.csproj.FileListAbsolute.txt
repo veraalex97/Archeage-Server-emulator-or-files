@@ -33,3 +33,13 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\AALauncher
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\AALauncher\obj\Debug\AALauncher.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\AALauncher\obj\Debug\AALauncher.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\AALauncher\obj\Debug\AALauncher.pdb
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\bin\Debug\AALauncher.exe.config
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\bin\Debug\AALauncher.exe
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\bin\Debug\AALauncher.pdb
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.Form1.resources
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.Properties.Resources.resources
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.csproj.GenerateResource.cache
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.exe
+H:\VS\Source\Repos\ArcheageEmu\AALauncher\obj\Debug\AALauncher.pdb

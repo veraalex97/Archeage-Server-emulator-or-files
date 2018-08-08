@@ -16,3 +16,13 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeAu
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeAuth\obj\Debug\ArcheAge Auth Server.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeAuth\obj\Debug\ArcheAgeLogin.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeAuth\obj\Debug\ArcheAgeLogin.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\bin\Debug\ArcheAgeLogin.exe.config
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\bin\Debug\ArcheAgeLogin.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\bin\Debug\ArcheAgeLogin.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\bin\Debug\LocalCommons.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\bin\Debug\LocalCommons.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\obj\Debug\ArcheAge Auth Server.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\obj\Debug\ArcheAge Auth Server.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\obj\Debug\ArcheAge Auth Server.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\obj\Debug\ArcheAgeLogin.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeAuth\obj\Debug\ArcheAgeLogin.pdb

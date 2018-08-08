@@ -82,3 +82,14 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge\b
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge\obj\Debug\ArcheAge.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge\obj\Debug\ArcheAgeGameServer.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge\obj\Debug\ArcheAgeGameServer.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\ArcheAgeGameServer.exe.config
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\ArcheAgeGameServer.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\ArcheAgeGameServer.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\LocalCommons.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\protobuf-net.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\bin\Debug\LocalCommons.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\obj\Debug\ArcheAge.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\obj\Debug\ArcheAge.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\obj\Debug\ArcheAge.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\obj\Debug\ArcheAgeGameServer.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge\obj\Debug\ArcheAgeGameServer.pdb

@@ -92,3 +92,20 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLa
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLauncher\obj\Debug\ArcheAge Launcher.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\bin\Debug\ArcheAgeLauncher.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\bin\Debug\ArcheAgeLauncher.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\bin\Debug\MahApps.Metro.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\bin\Debug\System.Windows.Interactivity.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAge Launcher.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\MainWindow.baml
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\Resources\Icons.baml
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\MainWindow.g.cs
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\App.g.cs
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher_MarkupCompile.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.g.resources
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.Properties.Resources.resources
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAge Launcher.csproj.GenerateResource.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAge Launcher.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAge Launcher.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAgeLauncher\obj\Debug\ArcheAgeLauncher.pdb

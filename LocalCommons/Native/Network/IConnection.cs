@@ -145,7 +145,9 @@ namespace LocalCommons.Native.Network
             StringBuilder builder = new StringBuilder();
             foreach (byte b in compiled)
                 builder.AppendFormat("{0:X2} ", b);
-            Console.WriteLine("Send: " + builder.ToString());
+            Console.ForegroundColor = ConsoleColor.Green;
+            Logger.Trace("Send:" + builder.ToString());
+            Console.ResetColor();
 
             //string path = "d:\\1.txt";//文件的路径，保证文件存在。
             //FileStream fs = new FileStream(path, FileMode.Append);
@@ -219,7 +221,9 @@ namespace LocalCommons.Native.Network
                     StringBuilder builder = new StringBuilder();
                     foreach (byte b in compiled)
                         builder.AppendFormat("{0:X2} ", b);
-                    Console.WriteLine("Send: \n" + builder.ToString());
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Logger.Trace("Send:" + builder.ToString());
+                    Console.ResetColor();
 
                     //string path = "d:\\1.txt";//文件的路径，保证文件存在。
                     //FileStream fs = new FileStream(path, FileMode.Append);
@@ -259,16 +263,18 @@ namespace LocalCommons.Native.Network
 #if DEBUG
             //--- Console Hexadecimal 
             StringBuilder builder = new StringBuilder();
-            builder.Append("收到：\n");
+            builder.Append("Recv:");
             for (int i = 0; i < transfered; i++)
                 builder.AppendFormat("{0:x2} ".ToUpper(), m_RecvBuffer[i]);
-            
+
+            Console.ForegroundColor = ConsoleColor.Blue;
             Logger.Trace(builder.ToString());
+            Console.ResetColor();
             //--- Console Hexadecimal
 #endif
             //此处加了一层循环，因有时  多条数据会并和一起接收到。此处将多条数据拆分处理
             short rest = 0;
-            short end = 0x00;
+            //short end = 0x00;
 
             
 

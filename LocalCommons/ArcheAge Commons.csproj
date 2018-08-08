@@ -35,6 +35,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ArcheAgeLogin\bin\Debug\mysql.data.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationFramework" />
     <Reference Include="protobuf-net">
       <HintPath>..\ArcheAgeLogin\bin\Debug\protobuf-net.dll</HintPath>
     </Reference>
@@ -48,6 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Native\Bufferization\BinaryOperations.cs" />
+    <Compile Include="Native\Cryptography\BdoTransformer.cs" />
+    <Compile Include="Native\Cryptography\Class1.cs" />
+    <Compile Include="Native\Cryptography\Class2.cs" />
+    <Compile Include="Native\Cryptography\Crypt.cs" />
+    <Compile Include="Native\Cryptography\Cryptography.cs" />
+    <Compile Include="Native\Cryptography\Encryption.cs" />
     <Compile Include="Native\Logging\Bar.cs" />
     <Compile Include="Native\Logging\Logger.cs" />
     <Compile Include="Native\Network\AsyncListener.cs" />

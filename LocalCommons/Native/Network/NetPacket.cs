@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LocalCommons.Native.Cryptography;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace LocalCommons.Native.Network
         private bool m_littleEndian;
         private bool m_IsArcheAge;
         private byte level;
+        private static byte m_NumPck = 0;  //глобальный подсчет пакетов DD05
 
         public bool IsArcheAgePacket
         {
@@ -65,22 +67,73 @@ namespace LocalCommons.Native.Network
         public byte[] Compile()
         {
             PacketWriter temporary = PacketWriter.CreateInstance(8192 * 4, m_littleEndian);
-            temporary.Write((short)(ns.Length + (m_IsArcheAge ? 4 : 2)));
+            //temporary.Write((short)(ns.Length + (m_IsArcheAge ? 4 : 2)));
+            //if (m_IsArcheAge)
+            //{
+            //    temporary.Write((byte)0xDD);
+            //    temporary.Write((byte)level);
+            //    temporary.Write((short)packetId);
+            //}
+            //else
+            //    temporary.Write((short)packetId);
+            //byte[] redata = ns.ToArray();
+            //PacketWriter.ReleaseInstance(ns);
+            //ns = null;
+            //temporary.Write(redata, 0, redata.Length);
+            //byte[] compiled = temporary.ToArray();
+            //PacketWriter.ReleaseInstance(temporary);
+            //temporary = null;
+            //return compiled;
+
+            //temporary.Write((short)(ns.Length + (m_IsArcheAge ? 6 : 2)));
             if (m_IsArcheAge)
             {
-                temporary.Write((byte)0xDD);
-                temporary.Write((byte)level);
-                temporary.Write((short)packetId);
+                if (level == 5)
+                {
+                    //здесь будет шифрование пакета DD05
+                    temporary.Write((short)(ns.Length + 6));
+
+                    temporary.Write((byte)0xDD);
+                    temporary.Write((byte)level);
+
+                    //TODO: посмотреть, может по другому написать, через copy?
+                    byte[] numPck = new byte[1];
+                    numPck[0] = m_NumPck; //вставили номер пакета в массив
+                    byte[] data = numPck.Concat(BitConverter.GetBytes((short)packetId)).ToArray(); //объединили с ID
+                    data = data.Concat(ns.ToArray()).ToArray(); //объединили с телом пакета
+                    byte crc = Encryption._CRC8_(data); //посчитали CRC пакета
+                    byte[] CRC = new byte[1];
+                    CRC[0] = crc; //вставили crc в массив
+                    data = CRC.Concat(data).ToArray(); //добавили спереди контрольную сумму
+                    byte[] encrypt = Encryption.StoCEncrypt(data); //зашифровали пакет
+                    temporary.Write(encrypt, 0, encrypt.Length);
+                    ++m_NumPck; //следующий номер шифрованного пакета DD05
+                }
+                else
+                {
+                    temporary.Write((short)(ns.Length + 4));
+
+                    temporary.Write((byte)0xDD);
+                    temporary.Write((byte)level);
+                    temporary.Write((short)packetId);
+
+                    byte[] redata = ns.ToArray();
+                    temporary.Write(redata, 0, redata.Length);
+                }
             }
             else
+            {
+                temporary.Write((short)(ns.Length + 2));
                 temporary.Write((short)packetId);
-            byte[] redata = ns.ToArray();
+                byte[] redata = ns.ToArray();
+                temporary.Write(redata, 0, redata.Length);
+            }
             PacketWriter.ReleaseInstance(ns);
             ns = null;
-            temporary.Write(redata, 0, redata.Length);
             byte[] compiled = temporary.ToArray();
             PacketWriter.ReleaseInstance(temporary);
             temporary = null;
+
             return compiled;
         }
 

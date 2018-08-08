@@ -114,8 +114,8 @@ namespace ArcheAgeLogin.ArcheAge.Holders
                 parameters.Add("@mainaccess", MySqlDbType.Byte).Value = account.AccessLevel;
                 parameters.Add("@useraccess", MySqlDbType.Byte).Value = account.Membership;
                 parameters.Add("@lastip", MySqlDbType.String).Value = account.LastIp;
-                parameters.Add("@password", MySqlDbType.String).Value = account.Token;
-                parameters.Add("@token", MySqlDbType.String).Value = account.Password;
+                parameters.Add("@password", MySqlDbType.String).Value = account.Password;
+                parameters.Add("@token", MySqlDbType.String).Value = account.Token;
                 parameters.Add("@lastonline", MySqlDbType.Int64).Value = account.LastEnteredTime;
                 if (m_DbAccounts.Contains(account))
                     parameters.Add("@aid", MySqlDbType.Int32).Value = account.AccountId;

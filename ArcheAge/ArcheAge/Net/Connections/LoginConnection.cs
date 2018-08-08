@@ -14,7 +14,9 @@ namespace ArcheAge.ArcheAge.Net.Connections
     public class LoginConnection : IConnection
     {
         public LoginConnection(Socket socket) : base(socket) {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Logger.Trace("连接服务器，安装数据…");
+            Console.ResetColor();
             DisconnectedEvent += LoginConnection_DisconnectedEvent;
             SendAsync(new Net_RegisterGameServer());
             //SendAsync(new test());
@@ -22,7 +24,9 @@ namespace ArcheAge.ArcheAge.Net.Connections
 
         void LoginConnection_DisconnectedEvent(object sender, EventArgs e)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Logger.Trace("登录服务器{0}：断开连接", this);
+            Console.ResetColor();
             Dispose();
         }
 
@@ -34,7 +38,12 @@ namespace ArcheAge.ArcheAge.Net.Connections
             if (handler != null)
                 handler.OnReceive(this, reader);
             else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Logger.Trace("收到未定义数据包 0x{0:x2", opcode);
+                Console.ResetColor();
+            }
+               
         }
     }
 }

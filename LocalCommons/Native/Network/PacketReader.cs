@@ -301,6 +301,19 @@ namespace LocalCommons.Native.Network
             return value;
         }
 
+        /// <summary>
+        /// Reading Little Endian 2 - Bytes - Short.
+        /// </summary>
+        /// <returns>Readed Short</returns>
+        public ushort ReadLEUInt16()
+        {
+            if ((m_Index + 2) > m_Size)
+                return 0;
+            ushort value = BitConverter.ToUInt16(m_Data, m_Index);
+            m_Index += 2;
+            return value;
+        }
+
 
         /// <summary>
         /// Reading Little Endian 4 - Bytes - Int.

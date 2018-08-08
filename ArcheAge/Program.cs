@@ -20,7 +20,7 @@ namespace ArcheAge
     {
         static void Main(string[] args)
         {
-            Console.Title = "上古世纪游戏服务器";
+            Console.Title = "上古世纪地图服务器";
             Console.CancelKeyPress += Console_CancelKeyPress;
             Stopwatch watch = Stopwatch.StartNew();
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
@@ -89,7 +89,9 @@ namespace ArcheAge
             }catch(Exception exp)
             {
                 //throw exp;
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Logger.Trace("无法连接登陆服务器，1秒后重试");
+                Console.ResetColor();
             }
             if (con.Connected)
                 new LoginConnection(con);

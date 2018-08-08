@@ -104,3 +104,22 @@ C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge P
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.exe
 C:\Users\Administrator\Source\Repos\Archeage-Server-emulator-or-files\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\bin\Debug\ArcheAge Packet Builder.exe.config
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\bin\Debug\ArcheAge Packet Builder.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\bin\Debug\ArcheAge Packet Builder.pdb
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\bin\Debug\MahApps.Metro.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\bin\Debug\System.Windows.Interactivity.dll
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.csprojAssemblyReference.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\DefinePacket.baml
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\MainWindow.baml
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\DefinePacket.g.cs
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\MainWindow.g.cs
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\App.g.cs
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder_MarkupCompile.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.g.resources
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge_Packet_Builder.Properties.Resources.resources
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.csproj.GenerateResource.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.csproj.CoreCompileInputs.cache
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.csproj.CopyComplete
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.exe
+H:\VS\Source\Repos\ArcheageEmu\ArcheAge Packet Builder\obj\Debug\ArcheAge Packet Builder.pdb

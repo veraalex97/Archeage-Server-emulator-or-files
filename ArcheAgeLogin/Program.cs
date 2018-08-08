@@ -23,7 +23,7 @@ namespace ArcheAgeLogin
         // .method private hidebysig static void Main(string[] args) cil managed
         static void Main(string[] args)
         {
-            Console.Title = "ArcheAge Login Server";
+            Console.Title = "上古世纪登陆服务器";
             //Console.Write(System.Text.UTF8Encoding.UTF8.GetByteCount("장미장원"));
             Console.CancelKeyPress += Console_CancelKeyPress;
             Stopwatch watch = Stopwatch.StartNew();

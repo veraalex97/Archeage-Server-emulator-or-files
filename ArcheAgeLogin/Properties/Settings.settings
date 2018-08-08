@@ -8,9 +8,6 @@
     <Setting Name="Game_Port" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">1231</Value>
     </Setting>
-    <Setting Name="DataBase_Host" Type="System.String" Scope="User">
-      <Value Profile="(Default)">127.0.0.1</Value>
-    </Setting>
     <Setting Name="DataBase_Port" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">3306</Value>
     </Setting>
@@ -23,14 +20,17 @@
     <Setting Name="Account_AutoCreation" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="DataBase_Password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">archeage</Value>
-    </Setting>
     <Setting Name="Main_IP" Type="System.String" Scope="User">
       <Value Profile="(Default)">127.0.0.1</Value>
     </Setting>
     <Setting Name="ServerClientVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">0</Value>
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="DataBase_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#dvC@gYTfi^9fHMv</Value>
+    </Setting>
+    <Setting Name="DataBase_Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">118.25.17.134</Value>
     </Setting>
   </Settings>
 </SettingsFile>
